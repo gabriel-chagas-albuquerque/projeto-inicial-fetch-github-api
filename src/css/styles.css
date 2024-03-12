@@ -3,7 +3,6 @@
 * {
   margin: 0;
   padding: 0;
-  font-weight: 300;
 }
 
 img {
@@ -143,9 +142,49 @@ main {
   transition: 0.3s ease-in-out;
 }
 
+.container .profile-data .repositories ul li a .info-repositories{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  margin-top: 5px;
+}
+
+.container .profile-data .repositories ul li a .info-repositories img{
+  width:16px;
+  height: 16px;
+  margin-left:5px;
+  margin-right: 2px;
+}
+
+.container .profile-data .repositories ul li a .info-repositories p{
+  margin:0 5px 0 2px;
+}
+
 .container .profile-data .repositories ul li a:hover{
   background-color:hotpink;
   color: #fff
+}
+
+.container .profile-data .events h2{
+  margin-bottom: 30px;
+  text-align: center; 
+}
+
+.container .profile-data .events ul{
+  display: flex;
+  flex-direction: column;
+  gap:20px;
+}
+
+.container .profile-data .events ul li{
+  background-color: #737980;
+  border-radius: 5px;
+  padding:10px;
+}
+
+.container .profile-data .events ul li p{
+  margin:10px;
 }
 
 .container .profile-data.hide{
